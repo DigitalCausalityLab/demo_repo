@@ -7,7 +7,7 @@ This repository is created for demonstration purposes. Version control with Git 
 Participants of the [Digital Causality Lab](https://digitalcausalitylab.github.io/) should use this repo as a template and do the following steps.
 
 1. Create your own GitHub repository.
-  * You can either navigate to your GitHub profile, go to the repositories tab and click on **new**, or, 
+  * You can either navigate to your GitHub profile, go to the repositories tab and click on **New**, or, 
   * You can use this template by clicking on the **Use this template** button.
 ![](figures/use_template_button.png)
 2. Open an issues with a task. For example, the title could be "*Add some content to the `README.md` file*".

@@ -1,5 +1,5 @@
 ---
-title: "demo_repo"
+title: "Example Quarto Document"
 format: html
 editor: visual
 ---
@@ -24,3 +24,33 @@ You can add options to executable code like this
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
+
+
+## Include figures
+
+You can also include some figures, for example 
+
+![](figures/logo.png){width=50%}
+
+
+## Load data 
+
+You can load data using relative paths. Here we load data from the subdirectory `data`
+
+```{r}
+load("data/experiment_data_counterfactual.rda")
+head(df)
+```
+
+
+## Load R code 
+
+
+```{r}
+# Load the R code in the file `R/my_function.R"
+source("R/my_function.R")
+
+set.seed(1234)
+x <- draw(10)
+print(x)
+```

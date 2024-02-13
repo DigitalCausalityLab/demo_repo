@@ -49,4 +49,4 @@ We'd recommend you to organize your repo as follows.
 * Include your R code (`.R` files) in a subdirectory called `R`, see [this example](R/my_function.R)
 * In case you use quarto for your data product, include your `.qmd` files here, see [this example](demo_repo.qmd)
 
-These basic recommendations are intended to give you a bit structure. You can deviate from them as you like but please make sure others should be able to understand what you did.
+These basic recommendations are intended to give you a bit structure. You can deviate from them as you like but please make sure others should be able to understand what you did. 😄
